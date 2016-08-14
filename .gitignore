@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+.firebaserc
+.idea/
+firebase-debug.log*
+dist
+bundle.js
