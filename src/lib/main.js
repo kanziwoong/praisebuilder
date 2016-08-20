@@ -3,10 +3,11 @@
  * Created by kanziw on 2016. 8. 13..
  */
 
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Index from './index'
 
 ReactDOM.render(
-  <h1>Hello, ReactJS on Firebase, GO!</h1>,
+  <Index />,
   document.getElementById('main')
 );
