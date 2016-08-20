@@ -1,6 +1,8 @@
 {
   "presets": [
     "es2015",
+    "es2017",
+    "stage-0",
     "react"
   ],
   "plugins": [
@@ -8,8 +10,9 @@
   ],
   "ignore": [
     "node_modules",
-    "dist"
+    "dist",
+    "public",
   ],
   "retainLines": false,
-  "compact": false
+  "compact": "auto"
 }
